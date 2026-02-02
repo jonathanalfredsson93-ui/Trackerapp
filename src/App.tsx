@@ -12,7 +12,7 @@ import WeightTracking from "./pages/WeightTracking";
 import Workouts from "./pages/Workouts";
 import Overview from "./pages/Overview";
 import NotFound from "./pages/NotFound";
-import Workoutsi from "./pages/Workoutsi";
+
 
 const queryClient = new QueryClient();
 
@@ -30,7 +30,7 @@ const App = () => (
           <Route path="/quick-foods" element={<QuickFoods />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/weight" element={<WeightTracking />} />
-          <Route path="/workouts" element={<Workoutsi />} />
+          <Route path="/workouts" element={<Workouts />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
